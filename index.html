@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+<script>
+    let num1 = prompt('Enter no 1');
+    let num2 = prompt('Enter no 2');
+    let opr = prompt('Enter Operator');
+
+    let chngnum1 = parseInt(num1);
+    let chngnum2 = parseInt(num2);
+    if(opr == "*"){
+        document.write("Answer of multiplication is:"+(chngnum1 * chngnum2));
+    }
+
+        else if(opr == "/"){
+        document.write("Answer of Division is:"+(chngnum1 / chngnum2));
+    }
+    else if(opr == "+"){
+        document.write("Answer of Addition is:"+(chngnum1 + chngnum2));
+    }
+    else if(opr == "-"){
+        document.write("Answer of Subtraction is:"+(chngnum1 - chngnum2));
+    }
+    else alert('Please Enter Valid Operator');
+</script>
